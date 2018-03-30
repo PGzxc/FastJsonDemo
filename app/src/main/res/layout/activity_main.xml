@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="com.pgzxc.fastjsondemo.MainActivity">
+
+        <Button
+            android:id="@+id/btn_strToObject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Str到Object" />
+        <Button
+            android:id="@+id/btn_ObjToStr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Object到Str" />
+        <Button
+            android:id="@+id/btn_StrToArray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Str到Array" />
+        <Button
+            android:id="@+id/btn_ArrayToStr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Array到Str" />
+        <Button
+            android:id="@+id/btn_ComplexToObj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Complex到Obj" />
+        <Button
+            android:id="@+id/btn_ObjToComplex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Obj到Complex" />
+    </LinearLayout>
+</ScrollView>
